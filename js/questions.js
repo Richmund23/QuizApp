@@ -46,7 +46,7 @@ let questions = [
   },
     {
     number: 5,
-    question: "Which law is analogous to transitivity",
+    question: "Which law is analogous to transitivity?",
     answer: "Zeroth Law of Thermodynamics",
     options: [
       "Zeroth Law of Thermodynamics",
