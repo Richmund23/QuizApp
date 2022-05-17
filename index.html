@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexus Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <!--ICONS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    
+</head>
+<body>
+    <!--START BUTTON-->
+    <div class="start_btn"><button>START</button></div>
+
+    <!--MECHANICS SECTION-->
+        <div class="mechanics_box">
+            <div class="mechanics_title">
+                <span>MECHANICS</span>
+            </div>
+            <div class="mechanics_content">
+                <div class="mechanics_info">Each question is good for <span>20 seconds</span> only.</div>
+                <div class="mechanics_info">Points will be awarded for each correct answer.</div>
+                <div class="mechanics_info">Once an option is selected, the selection can not be changed.</div>
+            </div>
+            <div class="buttons">
+                <button class="exit">Exit</button>
+                <button class="continue">Start Quiz</button>
+            </div>
+        </div>
+
+    <!-- QUIZ SECTION -->
+        <div class="quiz_box">
+            <header>
+            <!-- QUIZ TIMER -->
+            <div class="quiz_title">CONNEXUS Quiz App</div>
+            <div class="quiz_timer">
+                <div class="quiz_timer_text">Time Left:</div>
+                <div class="quiz_timer_left">20</div>
+            </div>
+            <div class="quiz_timer_line"></div>
+            </header>
+            <!-- QUESTION AND OPTIONS -->
+            <section>
+                <div class="question_text"></div>
+                <div class="option_list"></div>
+            </section>
+            <!-- QUIZ FOOTER SECTION -->
+            <footer>
+                <div class="question_count"></div>
+                <button class="next">Next Question</button>
+            </footer>
+        </div>
+
+    <!-- RESULT SECTION -->
+    <div class="result_box">
+        <div class="done">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="score_text"></div>
+        <div class="buttons">
+            <button class="replay">Replay Quiz</button>
+            <button class="quit">Exit Quiz</button>
+        </div>
+    </div>
+        
+    <!-- SCRIPT SECTION -->
+    <script src="js/questions.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
